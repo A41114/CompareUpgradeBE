@@ -45,7 +45,7 @@ async function fetchData(url) {
 
                 // // Nhập thông tin đăng nhập
                 await page.fill('input[type="text"]', 'dohoangquan.1112002@gmail.com'); // Thay 'input[name="username"]' với selector tương ứng
-                await page.fill('input[type="password"]', 'Abc@1234'); // Thay 'input[name="password"]' với selector tương ứng
+                await page.fill('input[type="password"]', 'Quan1112002@'); // Thay 'input[name="password"]' với selector tương ứng
 
                 // Gửi biểu mẫu đăng nhậps
                 await page.click('button[type="button"]'); // Thay 'button[type="submit"]' với selector tương ứng
@@ -196,7 +196,7 @@ async function fetchDataBDS(url) {
 
                 // // Nhập thông tin đăng nhập
                 await page.fill('input[type="text"]', 'dohoangquan.1112002@gmail.com'); // Thay 'input[name="username"]' với selector tương ứng
-                await page.fill('input[type="password"]', 'Abc@1234'); // Thay 'input[name="password"]' với selector tương ứng
+                await page.fill('input[type="password"]', 'Quan1112002@'); // Thay 'input[name="password"]' với selector tương ứng
 
                 // Gửi biểu mẫu đăng nhậps
                 await page.click('button[type="button"]'); // Thay 'button[type="submit"]' với selector tương ứng
@@ -452,7 +452,7 @@ async function fetchDataVnaPartnerNew(data) {
 
                 // Nhập thông tin đăng nhập
                 await page.fill('input[type="text"]', 'dohoangquan.1112002@gmail.com'); // Thay 'input[name="username"]' với selector tương ứng
-                await page.fill('input[type="password"]', 'Abc@1234'); // Thay 'input[name="password"]' với selector tương ứng
+                await page.fill('input[type="password"]', 'Quan1112002@'); // Thay 'input[name="password"]' với selector tương ứng
 
                 // Gửi biểu mẫu đăng nhậps
                 await page.click('button[type="button"]'); // Thay 'button[type="submit"]' với selector tương ứng
@@ -676,7 +676,7 @@ async function fetchDataSchedule (data) {
 
     // Nhập thông tin đăng nhập
     await page.fill('input[type="text"]', 'dohoangquan.1112002@gmail.com'); // Thay 'input[name="username"]' với selector tương ứng
-    await page.fill('input[type="password"]', 'Abc@1234'); // Thay 'input[name="password"]' với selector tương ứng
+    await page.fill('input[type="password"]', 'Quan1112002@'); // Thay 'input[name="password"]' với selector tương ứng
 
     // Gửi biểu mẫu đăng nhậps
     await page.click('button[type="button"]'); // Thay 'button[type="submit"]' với selector tương ứng
@@ -1023,7 +1023,6 @@ let createRealEstate = (data)=>{
                 viewingTime: data.viewingTime,
                 lotCode: data.lotCode,
                 description: data.description
-
             };
             fetch(url, {
                 method: "POST",
